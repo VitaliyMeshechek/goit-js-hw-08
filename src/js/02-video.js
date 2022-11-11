@@ -10,9 +10,7 @@ const refs = {
       localStorage.setItem('videoplayer-current-time', data.seconds)}, 1000));
 
       player.getCurrentTime().then(function(seconds) {
-        // seconds = the current playback position
     }).catch(function(error) {
-        // an error occurred
     });
 
 
