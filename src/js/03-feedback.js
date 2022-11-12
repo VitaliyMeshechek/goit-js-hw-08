@@ -25,7 +25,7 @@ function onFormLocal(evt) {
 
 function onFormSubmit(evt) {
 evt.preventDefault();
-console.log(`email: ${refs.email.value}, message: ${refs.message.value}`);
+console.log(`{email: ${refs.email.value}, message: ${refs.message.value}}`);
 evt.target.reset();
 localStorage.removeItem(STORAGE_KEY);
 };
