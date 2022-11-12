@@ -19,7 +19,6 @@ function onFormLocal(evt) {
 };
 
   const object = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
-  console.log(typeof object);
 
     onUpdatePage();
 
